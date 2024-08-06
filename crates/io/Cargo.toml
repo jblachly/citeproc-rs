@@ -14,7 +14,7 @@ markup = ["html5ever"]
 pandoc = ["pandoc_types"]
 
 [dependencies]
-html5ever = { version = "0.25.1", optional = true }
+html5ever = { version = "0.27", optional = true }
 pandoc_types = { path = "../pandoc-types", optional = true }
 fnv = "1.0.7"
 # don't need lexical as it is only used to parse floats
@@ -35,7 +35,7 @@ smartstring = { version = "1.0.1", features = ["serde" ] }
 # a Cow that can hold a smartstring
 cervine = { version = "0.0.6", features = ["serde" ] }
 lazy-transform-str = "0.0.6"
-markup5ever_rcdom = "0.1.0"
+markup5ever_rcdom = "0.3.0"
 ucd-trie = "0.1.3"
 unic-ucd-category = "0.9.0"
 once_cell = "1.7.2"
